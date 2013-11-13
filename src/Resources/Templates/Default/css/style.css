@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    background: #f7f7f7;
+}
+
+a {
+    color: #fff;
+}
+a:hover {
+    color: #ff7200;
+}
+
+#header {
+    width: 100%;
+}
+
+ul.menu {
+    width: 100%;
+    list-style: none;
+    height: 40px;
+    background-image: url('/resources/images/bg_menu.png');
+}
+ul.menu a {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+ul.menu li {
+    float: left;
+    text-align: center;
+    width: 33%;
+}
